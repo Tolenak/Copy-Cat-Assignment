@@ -1,11 +1,37 @@
-nav { 
+
+il { 
     display: inline;
-    align-items: center;
+    text-align: center;
    width: 100px;
    height: 100px;
    padding: 5px;
+
 }
 
 .right-top-side { 
-    
+    text-align: right;
 }
+
+.top-across-img { 
+    display: flex;
+    align-items: inline-block;
+    margin: 100px;
+    width: auto; 
+}
+.row-imgs { 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; 
+    align-items: center;
+    margin: auto;
+    padding: 175px; 
+    height: 100px; 
+
+}
+
+.caption { 
+    display: block;
+    text-align: center; 
+    font-size: 50px;
+}
+
